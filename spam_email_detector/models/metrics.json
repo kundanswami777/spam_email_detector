@@ -1,0 +1,38 @@
+{
+  "best_model": "svm",
+  "false_positive_rate": 0.010275007555152614,
+  "results": {
+    "naive_bayes": {
+      "best_params": {
+        "alpha": 0.1
+      },
+      "cv_f1": 0.9831966880318687,
+      "test_accuracy": 0.9854383358098069,
+      "test_f1": 0.9857267695892805,
+      "test_roc_auc": 0.9983104373119327,
+      "train_time_s": 0.2
+    },
+    "svm": {
+      "best_params": {
+        "estimator__C": 1
+      },
+      "cv_f1": 0.9881229227208206,
+      "test_accuracy": 0.9915304606240714,
+      "test_f1": 0.9916824748285422,
+      "test_roc_auc": 0.9992519493442146,
+      "train_time_s": 7.5
+    },
+    "xgboost": {
+      "best_params": {
+        "learning_rate": 0.2,
+        "max_depth": 5,
+        "n_estimators": 300
+      },
+      "cv_f1": 0.9826553009230479,
+      "test_accuracy": 0.987221396731055,
+      "test_f1": 0.9875362318840579,
+      "test_roc_auc": 0.9989322522110914,
+      "train_time_s": 562.3
+    }
+  }
+}
